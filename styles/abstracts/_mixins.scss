@@ -1,3 +1,4 @@
+@use 'variables' as *;
 // fonts start
 // fonts start
 @mixin main-font() {
@@ -116,13 +117,13 @@
 	font-size: 1.6rem;
 	line-height: 1.2;
 	font-weight: 200;
-	@include main-font;
+	@include sec-font;
 }
 @mixin span() {
 	font-size: 1.4rem;
 	line-height: 1.2;
 	font-weight: 600;
-	@include main-font;
+	@include sec-font;
 }
 // para and span end
 

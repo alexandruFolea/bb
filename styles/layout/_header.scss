@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 .navbar {
 	// height: 6rem;
 	@include max-width;
@@ -5,7 +7,7 @@
 	align-items: center;
 	justify-content: space-between;
 	padding: 2rem;
-	color: $mono2;
+	// color: $mono2;
 	position: relative;
 
 	&__logo {

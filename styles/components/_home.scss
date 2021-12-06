@@ -1,0 +1,16 @@
+@use '../abstracts' as *;
+
+.homepage {
+	@include max-width;
+	height: calc(100vh - 10rem);
+	width: 100%;
+
+	.home__section {
+		@include flex-center-column;
+		height: 100%;
+		h1 {
+			@include span;
+			// font-size: 10rem;
+		}
+	}
+}

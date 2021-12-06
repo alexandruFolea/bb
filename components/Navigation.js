@@ -9,15 +9,9 @@ import {
 } from 'react-icons/si';
 
 const Navigation = () => {
-	let windowSize = 720;
-
 	const [open, setOpen] = useState(false);
 	const handleClick = () => setOpen(!open);
 	const closeMobileMenu = () => setOpen(false);
-
-	// if (window.innerWidth > 720) {
-	// 	closeMobileMenu();
-	// }
 
 	useEffect(() => {
 		const handleResize = () => {
@@ -38,7 +32,7 @@ const Navigation = () => {
 				onClick={closeMobileMenu}
 			>
 				<Link href='/'>
-					<a>Logo</a>
+					<a>logo</a>
 				</Link>
 				{/* <h1>Logo</h1> */}
 			</div>

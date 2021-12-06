@@ -1,6 +1,9 @@
+@use '../abstracts' as *;
+
 .footer {
 	height: 6rem;
 	font-size: 1.6rem;
 	// font-family: $display-font;
 	@include flex-center-row;
+	// background: red;
 }
